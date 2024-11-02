@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Você Sabia</title>
 </head>
-
-<body>
+<body >
         <Header>
             <div class="center">
                 <img class="logo" src="img/HORIZONTAL.png" />
@@ -25,12 +24,14 @@
                 </div>
             </div>
         </Header>
-        <h1>fasohifoshiu</h1>
-
-        <div id="pergunta"></div>
-        
-        <div id="resposta"></div>
-        <button id="proximaPergunta" style="display:none;">Próxima Pergunta</button>
+        <div class="list">
+        <div class="box">
+            <h1>Você Sabia?</h1>
+            <p id="pergunta"></p>
+            <p id="resposta"></p>
+            <button onclick="exibirProxima()">Próxima</button>
+        </div>
+    </div>
         <script src="script.js"></script>
 </body>
 </html>
